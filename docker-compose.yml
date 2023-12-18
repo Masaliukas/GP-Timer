@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  gp_timer:
+    build: .
+    env_file:
+      - stack.env
+    extra_hosts:
+      - "${EXTERNAL_HOST1}"
+      - "${EXTERNAL_HOST2}"
+      - "${EXTERNAL_HOST3}"
+

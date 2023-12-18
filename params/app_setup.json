@@ -1,0 +1,9 @@
+{
+  "retry_amount"        : 3,
+  "race_sessions_ids"   : [1, 6],
+  "data_request_url"    : "URL",
+  "wait_between_request": 20000,
+  "server_id"           : "SERVER_ID",
+  "channel_id"          : "CHANNEL_ID",
+  "message_id"          : "MESSAGE_ID"
+}
